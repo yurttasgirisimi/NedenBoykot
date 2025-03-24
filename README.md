@@ -1,5 +1,7 @@
 # NedenBoykot
 
+[! NedenBoykot](nedenboykot.png)
+
 Bu proje, boykot edilen şirketleri ve holdingleri bir zihin haritası formatında görselleştiren bir web uygulamasıdır. Kullanıcılar haritayı yakınlaştırıp kaydırarak inceleyebilir, şirketlere veya holdinglere tıklayarak ayrıntıları görebilir ve holdingler ile alt şirketler arasındaki bağlantıları inceleyebilir.
 
 ## Özellikler
@@ -25,7 +27,7 @@ Veriler `sirketler.json` dosyasında saklanır. JSON yapısı şu şekildedir:
 Örnek bir JSON yapısı:
 ```json
 {
-  "dügümler": [
+  "dugumler": [
     { "kimlik": "anadolu_grubu", "ad": "Anadolu Grubu", "tur": "holding", "ayrintilar": "Turk hukumetine yakinligi nedeniyle boykot ediliyor.", "kaynak": "Keghart.org (2020)" },
     { "kimlik": "coca_cola", "ad": "Coca-Cola", "tur": "sirket", "ayrintilar": "Anadolu Grubu’na bagli, isci haklari ve cevresel sorunlar nedeniyle elestiriliyor.", "kaynak": "Ethical Consumer" }
   ],
