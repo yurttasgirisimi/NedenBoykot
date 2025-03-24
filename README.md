@@ -1,6 +1,6 @@
 # NedenBoykot
 
-[! NedenBoykot](nedenboykot.png)
+![NedenBoykot](nedenboykot.png)
 
 Bu proje, boykot edilen şirketleri ve holdingleri bir zihin haritası formatında görselleştiren bir web uygulamasıdır. Kullanıcılar haritayı yakınlaştırıp kaydırarak inceleyebilir, şirketlere veya holdinglere tıklayarak ayrıntıları görebilir ve holdingler ile alt şirketler arasındaki bağlantıları inceleyebilir.
 
