@@ -21,7 +21,7 @@ Bu proje, boykot edilen şirketleri ve holdingleri bir zihin haritası formatın
 
 ## Veri Yapısı
 Veriler `sirketler.json` dosyasında saklanır. JSON yapısı şu şekildedir:
-- `düğümler`: Şirketler ve holdingler (kimlik, ad, tur, ayrintilar, kaynak)
+- `dugumler`: Şirketler ve holdingler (kimlik, ad, tur, ayrintilar, kaynak)
 - `baglantilar`: Holdingler ve alt şirketler arasındaki bağlantılar (kaynak, hedef)
 
 Örnek bir JSON yapısı:
