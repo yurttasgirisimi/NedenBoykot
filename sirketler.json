@@ -1,0 +1,21 @@
+{
+  "dugumler": [
+    { "kimlik": "anadolu_grubu", "ad": "Anadolu Grubu", "tur": "holding", "ayrintilar": "Turk hukumetine yakinligi nedeniyle boykot ediliyor.", "kaynak": "Keghart.org (2020)" },
+    { "kimlik": "coca_cola", "ad": "Coca-Cola", "tur": "sirket", "ayrintilar": "Anadolu Grubu’na bagli, isci haklari ve cevresel sorunlar nedeniyle elestiriliyor.", "kaynak": "Ethical Consumer" },
+    { "kimlik": "efsane", "ad": "Efsane", "tur": "sirket", "ayrintilar": "Anadolu Grubu’na bagli, hukumetle iliskili projelerde yer aldigi iddiasi.", "kaynak": "X Gonderileri" },
+    { "kimlik": "yildiz_holding", "ad": "Yildiz Holding", "tur": "holding", "ayrintilar": "Hukumetle yakin iliskileri ve CEO’nun aciklamalari nedeniyle boykot ediliyor.", "kaynak": "Keghart.org (2020)" },
+    { "kimlik": "ulker", "ad": "Ulker", "tur": "sirket", "ayrintilar": "Yildiz Holding’e bagli, hukumet politikalarini destekledigi iddiasi.", "kaynak": "X Gonderileri" },
+    { "kimlik": "sok", "ad": "Sok", "tur": "sirket", "ayrintilar": "Yildiz Holding’e bagli, perakende sektorunde hukumetle iliskili.", "kaynak": "X Gonderileri" },
+    { "kimlik": "demiroren_holding", "ad": "Demiroren Holding", "tur": "holding", "ayrintilar": "Hukumet yanlisi medya politikalari nedeniyle boykot ediliyor.", "kaynak": "X Gonderileri" },
+    { "kimlik": "cnn_turk", "ad": "CNN Turk", "tur": "sirket", "ayrintilar": "Demiroren Holding’e bagli, hukumet yanlisi yayin politikalari.", "kaynak": "X Gonderileri" },
+    { "kimlik": "hurriyet", "ad": "Hurriyet", "tur": "sirket", "ayrintilar": "Demiroren Holding’e bagli, hukumet yanlisi yayin politikalari.", "kaynak": "X Gonderileri" }
+  ],
+  "baglantilar": [
+    { "kaynak": "anadolu_grubu", "hedef": "coca_cola" },
+    { "kaynak": "anadolu_grubu", "hedef": "efsane" },
+    { "kaynak": "yildiz_holding", "hedef": "ulker" },
+    { "kaynak": "yildiz_holding", "hedef": "sok" },
+    { "kaynak": "demiroren_holding", "hedef": "cnn_turk" },
+    { "kaynak": "demiroren_holding", "hedef": "hurriyet" }
+  ]
+}
