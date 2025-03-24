@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="tr"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NedenBoykot - Boykotlu Şirketlerin Zihin Haritası</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+    #zihinharitasi {
+      flex: 3;
+      border-right: 1px solid #ccc;
+    }
+    #ayrintilar {
+      flex: 1;
+      padding: 20px;
+      background-color: #f9f9f9;
+      overflow-y: auto;
+    }
+    #ayrintilar h2 {
+      margin-top: 0;
+    }
+    .dugum {
+      cursor: pointer;
+    }
+    .holding {
+      fill: #ff6b6b;
+      stroke: #cc0000;
+      stroke-width: 2;
+    }
+    .sirket {
+      fill: #4ecdc4;
+      stroke: #2a9d8f;
+      stroke-width: 2;
+    }
+    .baglanti {
+      stroke: #999;
+      stroke-opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <div id="zihinharitasi"></div>
+  <div id="ayrintilar">
+    <h2>Ayrıntılar</h2>
+    <p>Bir şirket veya holding seçin</p>
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="kod.js"></script>
+</body>
+</html>
